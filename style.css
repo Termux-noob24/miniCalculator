@@ -34,8 +34,8 @@ h1{
     border: 1px solid black;
     border-radius: 20px;
     margin: auto;
-    max-width: 80%;
-    padding: 20px;
+    max-width: 90%;
+    padding: 10px;
     height: fit-content;
 }
 .buttons{
@@ -44,11 +44,11 @@ h1{
     text-align: center;
 }
 button{
-    margin: 5px;
+    margin: 0px;
     background-color: #3B3030;
     padding: 2px;
     color: white;
-    height: 70px;
+    height: 60px;
     font-size: 30px;
     width: 60px;
     border-radius: .5rem;
