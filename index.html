@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>Calculator</h1>
+            <p>but mini :(</p>
+        </div>
+        <div class="input">
+            <p type="text" id="input">|</p>
+        </div>
+        <div class="buttons">
+            <div class="operations">
+                <button id="add" onclick="add()">+</button>
+                <button id="sub" onclick="sub()">-</button>
+                <button id="div" onclick="div()">/</button>
+                <button id="mult" onclick="mult()">x</button>
+                <button id="equal" onclick="equal()" style="color: aquamarine;">=</button>
+                <button id="equal" onclick="del()" style="font-size: 25px;">DEL</button>
+                <button onclick="hello()" style="font-size: 25px;  color: red;">Clear</button>
+            </div>
+            <div class="nums">
+                <button id="1" onclick="one()">1</button>
+                <button id="2" onclick="two()">2</button>
+                <button id="3" onclick="three()">3</button>
+                <button id="4" onclick="four()">4</button>
+                <button id="5" onclick="five()">5</button>
+                <button id="6" onclick="six()">6</button>
+                <button id="7" onclick="seven()">7</button>
+                <button id="8" onclick="eight()">8</button>
+                <button id="9" onclick="nine()">9</button>
+                <button id="0" onclick="zero()">0</button>
+                <button id="." onclick="point()">.</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
